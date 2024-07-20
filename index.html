@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selvam A - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>SELVAM A</h1>
+            <p>Web Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#cv" class="cv-link">Download CV</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Selvam, a passionate Python developer with extensive experience in building scalable and efficient applications. My expertise spans web development, data analysis, and automation. I enjoy solving complex problems with elegant code and am dedicated to continuous learning and improving my skills. Let's connect and explore opportunities to innovate and create impactful solutions!</p>
+        </section>
+        <section id="cv" class="container">
+            <h2>Download CV</h2>
+            <p>Click the button below to download my CV:</p>
+            <a href="SelvamAResume.pdf" class="cv-button" download>Download CV</a>
+        </section>
+
+        <section id="projects" class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>E-Commerce Site</h3>
+                    <p>Developed a dynamic e-commerce frontend featuring a sleek, responsive design with user-friendly navigation. Implemented a product catalog with filtering and sorting options, along with a streamlined checkout process. Integrated interactive elements and modern UI components to enhance user experience and accessibility. Leveraged HTML, CSS, and JavaScript to ensure cross-browser compatibility and performance optimization.</p>
+                    <a href="https://github.com/Aselvam01/E-Commerce.git" >View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Event Webpage</h3>
+                    <p>Designed a visually appealing event webpage using HTML and CSS. Features include a hero section with event details and registration call-to-action, a schedule overview, and a simple registration form. The page is fully responsive and customizable to fit various event themes and branding.</p>
+                    <a href="https://github.com/Aselvam01/Event-Webpage.git" >View Project</a>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 SELVAM A. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
